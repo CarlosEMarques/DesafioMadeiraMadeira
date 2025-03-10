@@ -38,12 +38,11 @@ export function OrderConfirmation({
           </span>
         </p>
       </div>
-      <Link
-        href={`/`}
-        className="flex h-10 w-10 items-center justify-center rounded-full bg-white shadow-md transition-all hover:bg-primary hover:text-primary-foreground"
-        aria-label="Ver detalhes do produto"
-      >
-        <Button variant="outline" className="w-full mt-4">
+      <Link href="/" className="" aria-label="Voltar">
+        <Button
+          variant="outline"
+          className="text-lg cursor-pointer flex float-end w-40 items-center justify-center bg-blue-500 text-white rounded-md shadow-md transition-all hover:bg-blue-600 hover:text-white"
+        >
           Voltar
         </Button>
       </Link>
