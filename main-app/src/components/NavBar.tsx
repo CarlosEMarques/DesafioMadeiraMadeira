@@ -17,14 +17,12 @@ export default function Navbar() {
   return (
     <nav className="bg-white shadow-md py-4">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6">
-        {/* Logo */}
         <h1 className="text-2xl font-bold text-gray-800">
           Ecommerce MadeiraMadeira
         </h1>
 
-        {/* Ícone do carrinho */}
         <button
-          className="relative flex items-center space-x-2 text-gray-800 hover:text-blue-600 transition"
+          className="relative flex items-center space-x-2 text-gray-800 hover:text-blue-600 transition cursor-pointer"
           onClick={handleCartClick}
         >
           <FaShoppingCart size={28} />
